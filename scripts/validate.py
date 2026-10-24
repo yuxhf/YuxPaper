@@ -36,7 +36,7 @@ for entry in manifest['sources']:
     assert re.fullmatch(r'[0-9a-f]{64}',entry['sha256'])
 allowed={'.html','.css','.js','.md','.json','.py'}
 for file in ROOT.rglob('*'):
-    if not file.is_file() or '__pycache__' in file.parts: continue
+    if not file.is_file() or any(part in {'.git', '__pycache__'} for part in file.relative_to(ROOT).parts): continue
     if file.suffix not in allowed and file.name not in {'.gitignore','.nojekyll'}:
         errors.append('Unexpected public file: '+str(file.relative_to(ROOT)))
     content=file.read_text()
