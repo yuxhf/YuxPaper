@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-10-24T11:29:57.078108+08:00",
+  "git_commit": "not_available",
+  "dataset_version": "not_applicable",
+  "seed": "not_applicable",
+  "formal_experiment_ran": false,
+  "approval_reference": "Human request in current chat: organize local knowledge-base framework and upload to YuxPaper",
+  "scope": "Framework summary and website design; source content is not copied into this repository. Paths are relative to the original workspace.",
+  "sources": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "6fd17420cfb123d2199471ab514d02bb0546d4f9db595bf1a8807ea163fe2a4a"
+    },
+    {
+      "path": "codex/registry/projects.yml",
+      "sha256": "a4ce7059f574556575b724937ce5444b9d1642dc27a4a2328386595b0b99fc10"
+    },
+    {
+      "path": "codex/workflows/paper_research_workflow.md",
+      "sha256": "543cc0f77a830dd1bb23605784f7a9f6df88acdc3b110ecb7bbea6057454e1a1"
+    },
+    {
+      "path": "codex/workflows/paper_writing_workflow.md",
+      "sha256": "e781019f003d42e9c6d82d48f02246a62162de3b9a29467516e6a8f661fd7896"
+    },
+    {
+      "path": "codex/research_memory/concept_template.md",
+      "sha256": "b81c0ec13b43c30fda1c59fd0b050d46921a9d4d9e4c12e9b3080f30354cb54d"
+    },
+    {
+      "path": "codex/research_memory/paper_node_template.md",
+      "sha256": "e8b410e3b66a49e4cd36634225f794011a3752ee747af094597edffb2cfb2eda"
+    },
+    {
+      "path": "codex/research_memory/weekly_review_card_template.md",
+      "sha256": "8edbcf5369503d6efee1d1c4178c4af7a2d5c4bb5a055edbaade4a9a53f4a9b9"
+    },
+    {
+      "path": "codex/templates/claim_ledger_template.md",
+      "sha256": "585ef22bd9d8195216ff93e25d7b885d992ffdb95f108fd2b40e022b8b692223"
+    },
+    {
+      "path": "codex/templates/evidence_gate_template.md",
+      "sha256": "72701dfdbfb869767ab1bd5afc836f668bbd73adfe1ac76e6efb4e93070885bc"
+    },
+    {
+      "path": "codex/research_memory/figures/README.md",
+      "sha256": "d712cab26cd1d283828b37814765274a45abb3e7568f1f7b72d62daa6aff9431"
+    },
+    {
+      "path": "workflow_teaching_pack_20260626/README.md",
+      "sha256": "2d29f6fefff60e094019834b349e59f96694cd957ac5d33b0df70a89a7039ebe"
+    }
+  ]
+}
